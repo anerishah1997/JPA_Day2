@@ -1,0 +1,25 @@
+Create Table Users
+(
+    Username Varchar2(20)Primary Key,
+    Password Varchar2(16) not null,
+    Firstname Varchar2(45) not null,
+    Lastname Varchar2(45) not null,
+    mobilenumber Varchar2(10)
+)
+
+Insert Into Users(Username, Password, Firstname, Lastname, mobilenumber) 
+Values('AW204_PC1', 'India@123', 'Admin', 'Admin', '9821225699');
+Commit;
+
+Insert Into Users(Username, Password, Firstname, Lastname, mobilenumber)
+Select First_Name || '_' || Last_Name, 'user@1234', First_Name, Last_Name, '9876543210'
+From Employees;
+
+Select * From Users;
+
+commit;
+
+
+Drop Table Users
+
+select * from employees;

@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+div{
+    background-color: cyan;
+    width: 270px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px green solid;
+    padding: 20px;
+}
